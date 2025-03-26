@@ -1524,4 +1524,27 @@ nav {
     .cta1{
         padding-top:unset ;
     }
+
+    .right-div ,.customers-box ,.width345{
+        width: 100%;
+        max-width: unset;
+    }
+
+    .employees-box {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .sec7-div1-wide806{
+        width: 100%;
+        max-width: unset;
+        padding-left: 0px;
+        padding-right: 0px;
+    
+    }
+
+    .width345{
+
+    }
+
 }
