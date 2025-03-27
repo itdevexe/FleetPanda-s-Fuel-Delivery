@@ -120,7 +120,7 @@ nav {
 /* section1 */
 
 .pd-top-bot1{
-    padding-top: 60px;
+    padding-top: 0px;
     padding-bottom: 100px;
 }
 
@@ -156,6 +156,7 @@ nav {
 .sec1-image {
     width: 100%;
     max-width: 574px;
+    padding-top: 75px;
 }
 
 /* buttons */
@@ -319,6 +320,10 @@ nav {
     font-weight: 700;
 }
 
+.nodeco{
+    text-decoration: none;
+}
+
 .tab-img-cont{
     width: 100%;
     max-width: 580px;
@@ -374,6 +379,9 @@ nav {
     font-size: 32px;
     font-weight: 800;
     line-height: 32px;
+}
+.lineht42{
+    line-height: 39px;
 }
 
 .scot-flex{
@@ -732,6 +740,14 @@ nav {
 
 .heading-sec7{
     padding-bottom: 101px;
+}
+
+.nospacebot{
+    padding-bottom: 0px;
+}
+
+.boldext{
+    font-weight: 800;
 }
 .org-txt{
     color: #fa6400;
@@ -1509,6 +1525,7 @@ nav {
     }
 
     .sec8headline{
+        padding-bottom: 20px;
         font-size: 35px;
         line-height: 1.2em;
     }
@@ -1598,5 +1615,14 @@ nav {
     
     }
 
+
+    .lineht42{
+        font-size: 24px;
+        letter-spacing: -0.5px;
+    }
+
+    .marg63px{
+        margin: 0;
+    }
 
 }
