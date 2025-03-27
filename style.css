@@ -603,8 +603,16 @@ nav {
 }
 
 .sec5-img-width34px{
-    width: 21px;
+    width: 30px;
     /* height: 34px; */
+}
+
+.sec5-img-width21px{
+    width: 21px;
+}
+
+.sec5-img-width24px{
+    width: 24px;
 }
 
 .width343{
