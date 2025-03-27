@@ -1335,6 +1335,8 @@ nav {
     .heading-subheading-btns{
         width: 100% ;
         padding-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .sec1-heading{
@@ -1348,7 +1350,7 @@ nav {
     }
 
     .sec1-image{
-        width: 319px;
+        width: 322px;
     }
 
     /* sec2  */
