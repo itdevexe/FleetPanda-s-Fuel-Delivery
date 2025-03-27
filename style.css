@@ -32,9 +32,12 @@ body {
 
 .containernav {
     width: 100%;
-    padding: 16px;
-    max-width: 1427px;
+    padding: 16px 24px;
+    /* max-width: 1427px; */
     margin: 0 auto;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
 }
 
 nav {
@@ -129,7 +132,7 @@ nav {
 
 .heading-subheading-btns {
     width: 51%;
-    padding: 25px 10px 25px 10px;
+    padding: 107px 10px 25px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1297,9 +1300,28 @@ nav {
     display: none;
 }
 
+.f-popup-wrapper {
+    z-index: 1;
+}
+
+.f-popup-wrapper-bada-popup{
+    z-index: 1;
+}
+
 @media screen and (max-width:479px) {
     .nav-mobile-a{
         display: none ;
+    }
+
+
+    .containernav {
+        width: 100%;
+        padding: 16px 24px;
+        /* max-width: 1427px; */
+        margin: 0 auto;
+        position: unset;
+        z-index: 1;
+        background-color: #fff;
     }
 
     .pd-top-bot1{
@@ -1312,6 +1334,7 @@ nav {
     }
     .heading-subheading-btns{
         width: 100% ;
+        padding-top: 25px;
     }
 
     .sec1-heading{
