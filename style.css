@@ -1460,7 +1460,10 @@ nav {
     }
 
     .elementor-widget-container,.width369, .width343 , .width265{
-        width: unset !important;
+        width: unset;
+    }
+    .width265{
+        width: 100%;
     }
     .e-con-inner{
         padding-inline: unset;
@@ -1538,6 +1541,7 @@ nav {
     }
     .whitebg{
         margin: 0 ;
+        max-width: unset;
     }
 
     .size19{
