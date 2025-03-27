@@ -510,6 +510,7 @@ nav {
 }
 
 .col-black-size19{
+    font-family: "inter";
     color: #0c0020;
     font-size: 19px;
     font-weight: 800;
@@ -528,9 +529,13 @@ nav {
 
 .width470{
     /* position: absolute; */
-    width: 479px !important;
+    width: 458px !important;
     max-width: none ;
     transform: rotateZ(-2deg) translate(24px, 16px);
+}
+
+.font-jk{
+    font-family: "Plus Jakarta Sans";
 }
 
 .wid60px{
@@ -1322,6 +1327,10 @@ nav {
 
 .f-popup-wrapper-bada-popup{
     z-index: 1;
+}
+
+.marg63px{
+    margin-left:39px;
 }
 
 @media screen and (max-width:479px) {
