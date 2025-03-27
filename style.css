@@ -120,7 +120,7 @@ nav {
 /* section1 */
 
 .pd-top-bot1{
-    padding-top: 0px;
+    padding-top: 82px;
     padding-bottom: 100px;
 }
 
@@ -1366,6 +1366,7 @@ nav {
     }
 
     .pd-top-bot1{
+        padding-top: 0px;
         padding-bottom: 0px;
     }
 
