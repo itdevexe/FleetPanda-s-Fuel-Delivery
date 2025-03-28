@@ -1,38 +1,3 @@
-// function openTab(evt, tabName) {
-//     var i, tabcontent, tablinks;
-//     tabcontent = document.getElementsByClassName("tab-content");
-//     if(window.innerWidth <= 479){
-//         for (i = 0; i < tabcontent.length; i++) {
-//             tabcontent[i].style.display = "flex";
-//         }
-//         return;
-//     }
-//     for (i = 0; i < tabcontent.length; i++) {
-//         tabcontent[i].style.display = "none";
-//     }
-//     tablinks = document.getElementsByClassName("tablinks");
-//     for (i = 0; i < tablinks.length; i++) {
-//         tablinks[i].classList.remove("active");
-//     }
-//     document.getElementById(tabName).style.display = "block";
-//     evt.currentTarget.classList.add("active");
-// }
-// document.querySelector(".tablinks").classList.add("active");
-
-// function mobileTabShown(){
-//     let tabcontent = document.getElementsByClassName("tab-content");
-//     if(window.innerWidth <= 479){
-//         for (i = 0; i < tabcontent.length; i++) {
-//             tabcontent[i].style.display = "flex";
-//         }
-//         return;
-//     }
-// }
-
-// window.addEventListener("resize", mobileTabShown);
-// window.addEventListener("DOMContentLoaded",mobileTabShown)
-
-
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tab-content");
@@ -85,11 +50,14 @@ function mobileTabShown() {
         }
 
         // Ensure the first tab is active when switching back to desktop
-        let firstTab = document.querySelector(".tablinks");
+        let firstTab = document.querySelectorAll(".tablinks");
         let firstTabContent = document.querySelector(".tab-content");
 
-        if (firstTab && firstTabContent) {
-            firstTab.classList.add("active");
+        if (firstTab[0] && firstTabContent) {
+            for (let i = 0; i < tabcontent.length; i++) {
+                firstTab[i].classList.remove("active");
+            }
+            firstTab[0].classList.add("active");
             firstTabContent.style.display = "block";
         }
     }
