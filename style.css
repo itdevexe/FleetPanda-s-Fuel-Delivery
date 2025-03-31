@@ -1350,23 +1350,34 @@ nav {
 }
 
 @media screen and (max-width:479px) {
-    .nav-mobile-a{
+    /* .nav-mobile-a{
         display: none ;
+    } */
+    
+    .brand-logo{
+        height: 27px;
+    }
+    .pricing-btn, .none-mob{
+        display: none;
     }
 
+    .book-demo-btn{
+        padding: 5px 10px;
+        font-size: 13px;
+    }
 
     .containernav {
         width: 100%;
-        padding: 16px 24px;
+        padding: 16px;
         /* max-width: 1427px; */
         margin: 0 auto;
-        position: unset;
+        /* position: unset; */
         z-index: 1;
         background-color: #fff;
     }
 
     .pd-top-bot1{
-        padding-top: 0px;
+        padding-top: 80px;
         padding-bottom: 0px;
     }
 
