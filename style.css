@@ -1596,7 +1596,7 @@ nav {
     }
 
     .bookademo,.pop-up-div{
-        
+        padding: 22px;
         margin: 24px;
         height: 90%;
         overflow-y: scroll;
